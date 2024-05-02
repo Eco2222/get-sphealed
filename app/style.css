@@ -1,3 +1,29 @@
 #plain {
     position: fixed;
+
+
+}
+body {
+    background-color: black;
+}
+#start {
+    position: fixed;
+    color: white;
+    font-size: 100px;
+    top: 100px;
+    left:100px;
+}
+#start:hover {
+    color: yellow
+}
+#start:active {
+    color: green;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    background-color: white;
 }
