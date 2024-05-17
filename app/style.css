@@ -27,3 +27,9 @@ body {
     display: inline-block;
     background-color: white;
 }
+#print {
+    color: white;
+}
+#print:active {
+    color: green;
+}

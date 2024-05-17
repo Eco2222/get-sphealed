@@ -1,3 +1,4 @@
+
 let fly = {};
 fly.y = 0;
 fly.x = 0;
@@ -39,6 +40,6 @@ function gameLoop() {
     if (fly.y < -$('#plain').width()) {
         fly.y = $(window).width();
     }
-    $('#plain').css({'top':fly.y,'left':fly.x});
+    $('#plain').css({'top':fly.y,'left':fly.x})
 }
 gameLoop();
